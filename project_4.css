@@ -1,0 +1,141 @@
+*{
+  padding: 0px;
+  /* margin: 0; */
+}
+.navbar{
+  background-color: black;
+  /* border-radius: 20px; */
+}
+.navbar li{
+  float:left;
+  list-style: none; 
+  margin: 10px 24px;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li a{
+  /* padding: 1px 1px; */
+  text-decoration: none;
+  color: white;
+}
+.header{
+  height: 700px;
+  width: 600px;
+  margin: 0px auto;
+}
+.first-header{
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/images/IEEEimg1.avif);
+  background-size: cover;
+  background-position: center;
+}
+.intro{
+  padding-top: 10px;
+  color: white;
+}
+.intro-heading{
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+  color: black;
+  
+}
+.serves-quest{
+  font-size: larger;
+  font-weight: 600;
+}
+.helps-students{
+  text-decoration: underline;
+  color: black;
+}
+a:hover{
+  color: red;
+}
+.IEEE_event{
+  margin-top: 40px;
+  background-image: url(/images/IEEE-Logo.jpg);
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  width: 800px;
+  margin-top: 25px;
+  margin: 20px auto;
+  border: 2px solid black ;
+  padding: 20px;
+  border-radius: 20px;
+}
+.event-quest{
+  font-size: 30px;
+  font-weight: 700;
+}
+.student-response{
+  border: 1px solid black;
+  width: 400px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 20px ;
+}
+button{
+  width: 50px;
+  transition: 0.3s;
+  margin: 5px;
+
+}
+button:hover{
+  color: white;
+  background-color: black;
+}
+.form-input{
+  margin: 20px;
+}
+label{
+  width: 150px;
+}
+input{
+  width: 250px;
+}
+.disp{
+  display: none;
+}
+.form{
+  margin: 30px auto;
+  width: 500px;
+  background-color: rgba(128, 128, 128, 0.222);
+  height: 280px;
+  padding: 10px;
+}
+.msg{
+  width: 700px;
+  margin: 50px auto;
+}
+.opt-no{
+  display: none;
+}
+.question{
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin-top: 20px;
+}
+.ans{
+  font-size: 17px;
+  background-color: lightgrey;
+}
+.FAQ{
+  margin: 50px auto;
+  width: 700px;
+}
+.gen{
+  font-size: 24px;
+  color: black;
+  background-color: gray;
+  /* width: auto; */
+
+}
+.footer{
+  background-color: black;
+  color: white;
+  /* width: 600px; */
+  text-align: center;
+  margin: 0px auto;
+}
